@@ -15,7 +15,8 @@ for(i = 0; i < 5; i ++){
 // Limpando o console
 console.clear()
 
-// * Exemplo
+/*
+//* Exemplo
 let i;
 let maiorNumero = 0;
 let numeroInformado;
@@ -27,4 +28,16 @@ for(i = 1; i<=5; i++){
     }
 }
 
-console.log("Maior número: "+ numeroInformado)
+console.log("Maior número: "+ numeroInformado) */
+
+//* ARRAYS
+
+const nota1 = 10;
+const nota2 = 8;
+const nota3 = 5;
+
+const notaDoAluno = [10, 8, 5]
+const pessoa = ["Walisson", 27, 1.77, true]
+
+console.log(notaDoAluno)
+console.log(pessoa)
