@@ -1,2 +1,2 @@
 # Front-end
- Exercicios de Front-end e React
+ Exercicios de Front-end em React
