@@ -30,7 +30,7 @@ for(i = 1; i<=5; i++){
 
 console.log("Maior número: "+ numeroInformado) */
 
-//* ARRAYS
+// * ARRAYS
 
 const nota1 = 10;
 const nota2 = 8;
@@ -41,3 +41,39 @@ const pessoa = ["Walisson", 27, 1.77, true]
 
 console.log(notaDoAluno)
 console.log(pessoa)
+
+console.log(pessoa[0])
+
+
+// *ALTERANDO ELEMENTOS EM ARRAYS
+pessoa[3] = false // Somente um elemento sofre alteração pois ele está em uma variável Const
+
+console.log(pessoa)
+
+console.clear(); // Limpa o terminal do que foi rodado anteriormente;
+
+console.log(pessoa.length) //Mostra a quantidade de elementos dentro da variável solicitada;
+
+console.log(notaDoAluno.length)
+
+//* FATIAMENTO DE ARRAYS
+const numeros = [40, 34, 57, 89, 23, 10]
+
+console.log(numeros.slice(0, 2)); //Quero ir até o índice menor que dois[0, 2], então o terminal irá imprimir [40,34]
+
+//* ADICIONANDO ELEMENTOS
+//Push: Adicionando elementos no final do array
+numeros.push(0)
+console.log(numeros)
+
+//Unshift: Adicionar elementos no inicio do array
+numeros.unshift(-1)
+console.log(numeros)
+
+//Pop: remover o elemento que está no final do array
+numeros.pop()
+console.log(numeros)
+
+//Shift: remover o elemento que está no inicio do array
+numeros.shift()
+console.log(numeros)
