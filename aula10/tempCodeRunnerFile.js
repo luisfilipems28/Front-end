@@ -1,5 +1,8 @@
-function saudacao(nomeDoEstudante, curso) {
-    return `Olá, ${nomeDoEstudante}, seja bem vindo  ao  curso de ${curso}`
-}    
+const idade = 26
+const altura = 1.80
 
-const mensagemDaSaudacao = saudacao("Luis" , "Java")
+const objeto = {
+    idade,
+    altura,
+}
+console.log(objeto)
