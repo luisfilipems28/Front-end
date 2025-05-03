@@ -77,3 +77,39 @@ console.log(numeros)
 //Shift: remover o elemento que está no inicio do array
 numeros.shift()
 console.log(numeros)
+
+// Includes: Verifica se existe determinado elemento dentro do Array
+
+console.log(numeros.includes)
+
+//* IndexOf: Identifica em qual indice o elemento está
+const indiceDoElemento10 = numeros.indexOf(10)
+console.log(indiceDoElemento10)
+//  Caso retorne -1, signfica que o elemento não existe no array
+
+//* LastindexOf: Identifica o ultimo elemento dentro do array com o valor solicitado
+const indiceDoElemento40 = numeros.indexOf(40)
+console.log(indiceDoElemento40)
+
+console.clear()
+
+//* PERCORRENDO ARRAY COM FOR 
+
+
+const arr = [45, 36, 90, 76, 32, 7];
+
+for(let i = 0; i < arr.length; i++){
+    console.log(i, arr[i])
+}
+
+//* for-of:  Percorre os elementos
+
+for(const elemento of arr){
+    console.log(elemento)
+}
+
+
+//* for-in: Percorre as propriedades do objetos
+
+
+
